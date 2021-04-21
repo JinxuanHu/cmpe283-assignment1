@@ -12,15 +12,18 @@ Xuan Shi
 4. Install Ubuntu 20.04 powered by Parallels Desktop16 and run the VM
 
 ## Process
-1.Install make and gcc using sudo
-
+1. Download cmpe283-1.c and Makefile.
+2. Add the kernel code for all the MSR's to cmpe283-1.c
+3. Install make and gcc using sudo
 	> $ sudo apt install make         
 	> $ sudo apt install gcc
 
 2. Build the file using make command
 	> $ make
   <image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshot/command-make.png">
-3. Run the kernel code
+3. After building the file, cmpe283-1.ko is produced
+
+4. Run the kernel code
 
 	> $ sudo insmod ./cmpe283-1.ko
   
