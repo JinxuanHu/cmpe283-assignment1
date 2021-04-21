@@ -6,9 +6,10 @@ Jinxuan Hu
 
 Xuan Shi
 ## Environment setup
-1. Download and install parallels  
-2. Configure it with 200GB hard disk space and 4GB memory
-3. Install Ubuntu 20.04 powered by Parallels Desktop16 and run the VM
+1. Download and install Parallels Desktop.
+2. Choose Ubuntu 64-bit as the guesting perating system.
+3. Configure it with 200GB hard disk space and 4GB memory
+4. Install Ubuntu 20.04 powered by Parallels Desktop16 and run the VM
 
 ## Process
 1.Install make and gcc using sudo
