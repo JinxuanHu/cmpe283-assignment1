@@ -1,6 +1,6 @@
 # cmpe283-assignment1
 ## Members
-Jinxuan Hu (013728936) Xuan Shi()
+Jinxuan Hu (013728936) Xuan Shi(013856401)
 ## Contribution of team members
 Jinxuan Hu
 
