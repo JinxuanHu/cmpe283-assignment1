@@ -1,10 +1,12 @@
 # cmpe283-assignment1
+
 ## Members
 Jinxuan Hu (013728936) Xuan Shi(013856401)
-## Contribution of team members
-Jinxuan Hu
 
-Xuan Shi
+## Contribution of team members
+Jinxuan Hu ----Download VMvare Fusion and install Ubuntu20.04, setup the enrironment and write code for ProcessBased and Secondary procbased controls.
+Xuan Shi ---- Download VMvare Fusion and install Ubuntu20.04,setup the enrironment  and write ernel code for Entry and Exit controls.
+
 ## Environment setup
 1. Download and install VMvare Fusion from VMvare official website.
 2. Create a new virtual machine and choose Ubuntu 20.04 as the guesting operating system.
@@ -19,20 +21,17 @@ Xuan Shi
 ## Implement Process
 1. Download cmpe283-1.c and Makefile.
 2. Add the kernel code for all the MSR's to cmpe283-1.c
-3. Install make and gcc using sudo
+3. Install make and gcc using sudo 
 	> $ sudo apt install make         
 	> $ sudo apt install gcc
-
-2. Build the file using make command
+2. Compile the file using make command
 	> $ make
-  <image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshot/command-make.png">
-3. After building the file, cmpe283-1.ko is produced
-
-4. Run the kernel code
-
+3. After the compile, the file "cmpe283-1.ko" is created and use below command to load this file
 	> $ sudo insmod ./cmpe283-1.ko
-  
+4. Use the below command to show the result
 	> $ dmesg
-  <image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshot/procbased.png">
-  <image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshot/secondary-entry.png">
-  <image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshot/exit.png">
+  <image src = "">
+  <image src = "">
+  <image src = "">
+5. Unload the kernel by using the below command to clean all the files generate by the above.
+	> $ sudo rmmod cmpe283-1
