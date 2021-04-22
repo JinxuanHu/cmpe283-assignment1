@@ -31,8 +31,8 @@ Xuan Shi ---- Download VMvare Fusion and install Ubuntu20.04,setup the enrironme
 	> $ sudo insmod ./cmpe283-1.ko
 4. Use the below command to show the system log. 
 	> $ dmesg
-  <image src = "">
-  <image src = "">
-  <image src = "">
-5. Unload the kernel by using the below command to clean all the files generate by the above.
+  	<image src = "">
+  	<image src = "">
+  	<image src = "">
+5. Unload the kernel by using the below command to clean all the files generate by the above.                                                           
 	> $ sudo rmmod cmpe283-1
