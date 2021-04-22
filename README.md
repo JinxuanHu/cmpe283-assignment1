@@ -6,12 +6,17 @@ Jinxuan Hu
 
 Xuan Shi
 ## Environment setup
-1. Download and install Parallels Desktop.
-2. Choose Ubuntu 64-bit as the guesting perating system.
-3. Configure it with 200GB hard disk space and 4GB memory
-4. Install Ubuntu 20.04 powered by Parallels Desktop16 and run the VM
+1. Download and install VMvare Fusion from VMvare official website.
+2. Create a new virtual machine and choose Ubuntu 20.04 as the guesting operating system.
+3. Preparing for the following three assignments, we configure it with 128GB hard disk space and 4GB memory
+4. Install and run Ubuntu20.04 
+5. Install KVM pakages(for intel processor) using the command
+6. Install virt-manager using the command
+	> $ sudo apt install virt-manager
+8. Check if nested virtulization is enabled by using the command
+	> $ cat /proc/cpuinfo
 
-## Process
+## Implement Process
 1. Download cmpe283-1.c and Makefile.
 2. Add the kernel code for all the MSR's to cmpe283-1.c
 3. Install make and gcc using sudo
