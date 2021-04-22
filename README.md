@@ -14,9 +14,12 @@ Xuan Shi ---- Download VMvare Fusion and install Ubuntu20.04,setup the enrironme
 3. Preparing for the following three assignments, we configure it with 128GB hard disk space and 4GB memory
 4. Install and run Ubuntu20.04 
 5. Install KVM pakages(for intel processor) using the command
-6. Install virt-manager using the command
+	> $ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils
+6. check is KVM is installed
+	> $ sudo kvm-ok
+8. Install virt-manager using the command
 	> $ sudo apt install virt-manager
-8. Check if nested virtulization is enabled by using the command
+9. Check if nested virtulization is enabled by using the command
 	> $ cat /proc/cpuinfo
 
 ## Implement Process
