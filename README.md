@@ -4,12 +4,12 @@
 Jinxuan Hu (013728936) Xuan Shi(013856401)
 
 ## Contribution of team members
-Jinxuan Hu ----Download VMvare Fusion and install Ubuntu20.04, setup the enrironment and write code for ProcessBased and Secondary procbased controls.
+Jinxuan Hu ----Download VMware Fusion and install Ubuntu20.04, setup the enrironment and write code for ProcessBased and Secondary procbased controls.
 
-Xuan Shi ---- Download VMvare Fusion and install Ubuntu20.04,setup the enrironment  and write ernel code for Entry and Exit controls.
+Xuan Shi ---- Download VMware Fusion and install Ubuntu20.04,setup the enrironment  and write ernel code for Entry and Exit controls.
 
 ## Environment setup
-1. Download and install VMvare Fusion from VMvare official website.
+1. Download and install VMmare Fusion from VMware official website.
 2. Create a new virtual machine and choose Ubuntu 20.04 as the guesting operating system.
 3. Preparing for the following three assignments, we configure it with 128GB hard disk space and 4GB memory
 4. Install and run Ubuntu20.04 
