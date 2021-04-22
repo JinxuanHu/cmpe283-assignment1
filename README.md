@@ -5,6 +5,7 @@ Jinxuan Hu (013728936) Xuan Shi(013856401)
 
 ## Contribution of team members
 Jinxuan Hu ----Download VMvare Fusion and install Ubuntu20.04, setup the enrironment and write code for ProcessBased and Secondary procbased controls.
+
 Xuan Shi ---- Download VMvare Fusion and install Ubuntu20.04,setup the enrironment  and write ernel code for Entry and Exit controls.
 
 ## Environment setup
@@ -19,16 +20,16 @@ Xuan Shi ---- Download VMvare Fusion and install Ubuntu20.04,setup the enrironme
 	> $ cat /proc/cpuinfo
 
 ## Implement Process
-1. Download cmpe283-1.c and Makefile.
-2. Add the kernel code for all the MSR's to cmpe283-1.c
-3. Install make and gcc using sudo 
+1. Download cmpe283-1.c and Makefile from Files on Canvas.
+2. Add the kernel code for all the MSR's to cmpe283-1.c and save the file.  Each of us build the kernel code for two controls.
+3. Install make and gcc using the following commands, which is used for compile the cmpe283-1.c.
 	> $ sudo apt install make         
 	> $ sudo apt install gcc
 2. Compile the file using make command
 	> $ make
 3. After the compile, the file "cmpe283-1.ko" is created and use below command to load this file
 	> $ sudo insmod ./cmpe283-1.ko
-4. Use the below command to show the result
+4. Use the below command to show the system log. 
 	> $ dmesg
   <image src = "">
   <image src = "">
