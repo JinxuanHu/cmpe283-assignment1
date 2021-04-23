@@ -13,9 +13,10 @@ Xuan Shi ---- Download VMware Fusion and install Ubuntu20.04,setup the enrironme
 2. Create a new virtual machine and choose Ubuntu 20.04 as the guesting operating system.
 3. Preparing for the following three assignments, we configure it with 128GB hard disk space and 4GB memory
 4. Install and run Ubuntu20.04 
-5. Install KVM pakages(for intel processor) using the command
+5. Enable hypervisor application in this virtual machine to enable running modern virtualization applications by providing support for Intel VT-x/EPT inside this virtual machine.
+6. Install KVM pakages(for intel processor) using the command
 	> $ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils
-6. check is KVM is installed
+7. check is KVM is installed
 	> $ sudo kvm-ok
 8. Install virt-manager using the command
 	> $ sudo apt install virt-manager
@@ -34,8 +35,10 @@ Xuan Shi ---- Download VMware Fusion and install Ubuntu20.04,setup the enrironme
 	> $ sudo insmod ./cmpe283-1.ko
 4. Use the below command to show the system log. 
 	> $ dmesg
-  	<image src = "">
-  	<image src = "">
-  	<image src = "">
+  	<image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshots/ProcBased.png">
+  	<image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshots/ProcBasedSecondary.png">
+  	<image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshots/entry.png">
+	<image src = "https://github.com/JinxuanHu/cmpe283-assignment1/blob/master/screenshots/exit.png">
+		
 5. Unload the kernel by using the below command to clean all the files generate by the above.                                                           
 	> $ sudo rmmod cmpe283-1
