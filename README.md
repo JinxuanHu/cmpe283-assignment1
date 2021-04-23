@@ -6,13 +6,13 @@ Jinxuan Hu (013728936) Xuan Shi(013856401)
 ## Contribution of team members
 Jinxuan Hu ----Download VMware Fusion and install Ubuntu20.04, setup the enrironment and write code for ProcessBased and Secondary procbased controls.
 
-Xuan Shi ---- Download VMware Fusion and install Ubuntu20.04,setup the enrironment  and write ernel code for Entry and Exit controls.
+Xuan Shi ---- Download VMware Fusion and install Ubuntu20.04,setup the enrironment  and write code for Entry and Exit controls.
 
 ## Environment setup
 1. Download and install VMmare Fusion from VMware official website.
 2. Create a new virtual machine and choose Ubuntu 20.04 as the guesting operating system.
 3. Preparing for the following three assignments, we configure it with 128GB hard disk space and 4GB memory
-4. Install and run Ubuntu20.04 
+4. Download Ubuntu 20.04 Image. Install and run Ubuntu20.04 
 5. Enable hypervisor application in this virtual machine to enable running modern virtualization applications by providing support for Intel VT-x/EPT inside this virtual machine.
 6. Install KVM pakages(for intel processor) using the command
 	> $ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils
@@ -23,9 +23,9 @@ Xuan Shi ---- Download VMware Fusion and install Ubuntu20.04,setup the enrironme
 9. Check if nested virtulization is enabled by using the command
 	> $ cat /proc/cpuinfo
 
-## Implement Process
+## Implementation Process
 1. Download cmpe283-1.c and Makefile from Files on Canvas.
-2. Add the kernel code for all the MSR's to cmpe283-1.c and save the file.  Each of us build the kernel code for two controls.
+2. Add the kernel code for all the MSR's to cmpe283-1.c and save the file.  Each of us implemented the kernel code for two controls.
 3. Install make and gcc using the following commands, which is used for compile the cmpe283-1.c.
 	> $ sudo apt install make         
 	> $ sudo apt install gcc
